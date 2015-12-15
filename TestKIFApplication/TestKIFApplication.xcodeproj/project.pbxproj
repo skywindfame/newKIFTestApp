@@ -16,12 +16,20 @@
 		370478CE1C1EE2FF00842054 /* KIFTestActorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370478CC1C1EE2FF00842054 /* KIFTestActorExtension.swift */; };
 		370478CF1C1EE2FF00842054 /* XCTestCaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370478CD1C1EE2FF00842054 /* XCTestCaseExtension.swift */; };
 		370478D11C1EE36C00842054 /* SampleTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370478D01C1EE36C00842054 /* SampleTestCase.swift */; };
+		37B160681C1FD50100B81C48 /* TestKIFApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B160671C1FD50100B81C48 /* TestKIFApplicationUITests.swift */; };
 		728296B3C033D2AD5D98A58B /* Pods_TestKIFApplicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF77B08A08A7CB143EBF157 /* Pods_TestKIFApplicationTests.framework */; };
 		FB9D7447C566773DB84F30EB /* Pods_TestKIFApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952D5C0CAE3C11C0BE76BA66 /* Pods_TestKIFApplication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		370478B01C1EE19900842054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370478931C1EE19900842054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3704789A1C1EE19900842054;
+			remoteInfo = TestKIFApplication;
+		};
+		37B1606A1C1FD50100B81C48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 370478931C1EE19900842054 /* Project object */;
 			proxyType = 1;
@@ -45,6 +53,9 @@
 		370478CD1C1EE2FF00842054 /* XCTestCaseExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestCaseExtension.swift; sourceTree = "<group>"; };
 		370478D01C1EE36C00842054 /* SampleTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTestCase.swift; sourceTree = "<group>"; };
 		370478D21C1EE62A00842054 /* TestKIFApplicationTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestKIFApplicationTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		37B160651C1FD50100B81C48 /* TestKIFApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKIFApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B160671C1FD50100B81C48 /* TestKIFApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKIFApplicationUITests.swift; sourceTree = "<group>"; };
+		37B160691C1FD50100B81C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42D2329A3A818A61630011B1 /* Pods-TestKIFApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKIFApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKIFApplication/Pods-TestKIFApplication.debug.xcconfig"; sourceTree = "<group>"; };
 		8E137844990395859A2A827D /* Pods-TestKIFApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKIFApplicationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKIFApplicationTests/Pods-TestKIFApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
 		952D5C0CAE3C11C0BE76BA66 /* Pods_TestKIFApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKIFApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +81,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37B160621C1FD50100B81C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +96,7 @@
 			children = (
 				3704789D1C1EE19900842054 /* TestKIFApplication */,
 				370478B21C1EE19900842054 /* TestKIFApplicationTests */,
+				37B160661C1FD50100B81C48 /* TestKIFApplicationUITests */,
 				3704789C1C1EE19900842054 /* Products */,
 				CFFD20CF299C3A1C08BCBEA2 /* Pods */,
 				389D7E7411BCB5A997E6BE87 /* Frameworks */,
@@ -89,6 +108,7 @@
 			children = (
 				3704789B1C1EE19900842054 /* TestKIFApplication.app */,
 				370478AF1C1EE19900842054 /* TestKIFApplicationTests.xctest */,
+				37B160651C1FD50100B81C48 /* TestKIFApplicationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +137,15 @@
 				370478D21C1EE62A00842054 /* TestKIFApplicationTests-Bridging-Header.h */,
 			);
 			path = TestKIFApplicationTests;
+			sourceTree = "<group>";
+		};
+		37B160661C1FD50100B81C48 /* TestKIFApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37B160671C1FD50100B81C48 /* TestKIFApplicationUITests.swift */,
+				37B160691C1FD50100B81C48 /* Info.plist */,
+			);
+			path = TestKIFApplicationUITests;
 			sourceTree = "<group>";
 		};
 		389D7E7411BCB5A997E6BE87 /* Frameworks */ = {
@@ -183,6 +212,24 @@
 			productReference = 370478AF1C1EE19900842054 /* TestKIFApplicationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		37B160641C1FD50100B81C48 /* TestKIFApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B1606E1C1FD50100B81C48 /* Build configuration list for PBXNativeTarget "TestKIFApplicationUITests" */;
+			buildPhases = (
+				37B160611C1FD50100B81C48 /* Sources */,
+				37B160621C1FD50100B81C48 /* Frameworks */,
+				37B160631C1FD50100B81C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37B1606B1C1FD50100B81C48 /* PBXTargetDependency */,
+			);
+			name = TestKIFApplicationUITests;
+			productName = TestKIFApplicationUITests;
+			productReference = 37B160651C1FD50100B81C48 /* TestKIFApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +244,10 @@
 						CreatedOnToolsVersion = 7.1.1;
 					};
 					370478AE1C1EE19900842054 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3704789A1C1EE19900842054;
+					};
+					37B160641C1FD50100B81C48 = {
 						CreatedOnToolsVersion = 7.1.1;
 						TestTargetID = 3704789A1C1EE19900842054;
 					};
@@ -217,6 +268,7 @@
 			targets = (
 				3704789A1C1EE19900842054 /* TestKIFApplication */,
 				370478AE1C1EE19900842054 /* TestKIFApplicationTests */,
+				37B160641C1FD50100B81C48 /* TestKIFApplicationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +285,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		370478AD1C1EE19900842054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B160631C1FD50100B81C48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,6 +414,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37B160611C1FD50100B81C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B160681C1FD50100B81C48 /* TestKIFApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -362,6 +429,11 @@
 			isa = PBXTargetDependency;
 			target = 3704789A1C1EE19900842054 /* TestKIFApplication */;
 			targetProxy = 370478B01C1EE19900842054 /* PBXContainerItemProxy */;
+		};
+		37B1606B1C1FD50100B81C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3704789A1C1EE19900842054 /* TestKIFApplication */;
+			targetProxy = 37B1606A1C1FD50100B81C48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -521,6 +593,30 @@
 			};
 			name = Release;
 		};
+		37B1606C1C1FD50100B81C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestKIFApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wr.TestKIFApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestKIFApplication;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		37B1606D1C1FD50100B81C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestKIFApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wr.TestKIFApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestKIFApplication;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -550,6 +646,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		37B1606E1C1FD50100B81C48 /* Build configuration list for PBXNativeTarget "TestKIFApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B1606C1C1FD50100B81C48 /* Debug */,
+				37B1606D1C1FD50100B81C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
