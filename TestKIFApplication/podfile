@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'TestKIFApplication' do
+    pod 'Alamofire', '~> 3.0'
+    pod 'ReactiveCocoa', '4.0.4-alpha-1'
+end
+
+target 'TestKIFApplicationTests', :exclusive => true do
+  pod 'KIF', '~> 3.3', :configurations => ['Debug']
+  pod 'KIF/IdentifierTests', '~> 3.3', :configurations => ['Debug']
+end
