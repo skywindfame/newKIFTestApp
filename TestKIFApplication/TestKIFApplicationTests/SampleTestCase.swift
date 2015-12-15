@@ -13,6 +13,7 @@ class LoginTestCase: KIFTestCase {
     func testSampleA() {
         
         tester().enterText("saymyname!!", intoViewWithAccessibilityLabel: "InputTF")
+        tester().enterText("Hello!!", intoViewWithAccessibilityLabel: "InputTF")
     }
 }
 
