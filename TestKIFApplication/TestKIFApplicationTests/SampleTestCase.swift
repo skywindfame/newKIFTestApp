@@ -10,10 +10,37 @@ import KIF
 
 class LoginTestCase: KIFTestCase {
     
-    func testSampleA() {
+    func testSample01() {
         
-        tester().enterText("saymyname!!", intoViewWithAccessibilityLabel: "InputTF")
-        tester().enterText("Hello!!", intoViewWithAccessibilityLabel: "InputTF")
+        let showLabel = tester().waitForViewWithAccessibilityLabel("ShowLabel") as? UILabel
+
+        tester().enterText("Hello", intoViewWithAccessibilityLabel: "InputTF")
+        tester().tapViewWithAccessibilityLabel("ClickBtn")
+        XCTAssertTrue(showLabel?.text == "Correct")
     }
+    
+    func testSample02() {
+        
+         tester().clearTextFromViewWithAccessibilityLabel("InputTF")
+        
+        let showLabel = tester().waitForViewWithAccessibilityLabel("ShowLabel") as? UILabel
+        
+        tester().enterText("Fame", intoViewWithAccessibilityLabel: "InputTF")
+        tester().tapViewWithAccessibilityLabel("ClickBtn")
+        XCTAssertTrue(showLabel?.text == "Wrong!!")
+    }
+    
+    func testSample03() {
+        
+        tester().clearTextFromViewWithAccessibilityLabel("InputTF")
+        
+        let showLabel = tester().waitForViewWithAccessibilityLabel("ShowLabel") as? UILabel
+        
+        tester().enterText("ABDHFS", intoViewWithAccessibilityLabel: "InputTF")
+        tester().tapViewWithAccessibilityLabel("ClickBtn")
+        XCTAssertTrue(showLabel?.text == "Correct")
+    }
+
+
 }
 
