@@ -552,7 +552,7 @@
 				INFOPLIST_FILE = TestKIFApplication/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wr.TestKIFApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ampos.kitchenuperm.TEST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -566,7 +566,7 @@
 				INFOPLIST_FILE = TestKIFApplication/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wr.TestKIFApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ampos.kitchenuperm.TEST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
