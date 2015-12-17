@@ -17,6 +17,7 @@
 		370478CF1C1EE2FF00842054 /* XCTestCaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370478CD1C1EE2FF00842054 /* XCTestCaseExtension.swift */; };
 		370478D11C1EE36C00842054 /* SampleTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370478D01C1EE36C00842054 /* SampleTestCase.swift */; };
 		37B160681C1FD50100B81C48 /* TestKIFApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B160671C1FD50100B81C48 /* TestKIFApplicationUITests.swift */; };
+		37B160701C21528B00B81C48 /* SampleUnitTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B1606F1C21528B00B81C48 /* SampleUnitTestCase.swift */; };
 		728296B3C033D2AD5D98A58B /* Pods_TestKIFApplicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF77B08A08A7CB143EBF157 /* Pods_TestKIFApplicationTests.framework */; };
 		FB9D7447C566773DB84F30EB /* Pods_TestKIFApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952D5C0CAE3C11C0BE76BA66 /* Pods_TestKIFApplication.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		37B160651C1FD50100B81C48 /* TestKIFApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKIFApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B160671C1FD50100B81C48 /* TestKIFApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKIFApplicationUITests.swift; sourceTree = "<group>"; };
 		37B160691C1FD50100B81C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B1606F1C21528B00B81C48 /* SampleUnitTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleUnitTestCase.swift; sourceTree = "<group>"; };
 		42D2329A3A818A61630011B1 /* Pods-TestKIFApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKIFApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKIFApplication/Pods-TestKIFApplication.debug.xcconfig"; sourceTree = "<group>"; };
 		8E137844990395859A2A827D /* Pods-TestKIFApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKIFApplicationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKIFApplicationTests/Pods-TestKIFApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
 		952D5C0CAE3C11C0BE76BA66 /* Pods_TestKIFApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKIFApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +137,7 @@
 				370478B51C1EE19900842054 /* Info.plist */,
 				370478D01C1EE36C00842054 /* SampleTestCase.swift */,
 				370478D21C1EE62A00842054 /* TestKIFApplicationTests-Bridging-Header.h */,
+				37B1606F1C21528B00B81C48 /* SampleUnitTestCase.swift */,
 			);
 			path = TestKIFApplicationTests;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				370478CE1C1EE2FF00842054 /* KIFTestActorExtension.swift in Sources */,
 				370478D11C1EE36C00842054 /* SampleTestCase.swift in Sources */,
 				370478CF1C1EE2FF00842054 /* XCTestCaseExtension.swift in Sources */,
+				37B160701C21528B00B81C48 /* SampleUnitTestCase.swift in Sources */,
 				370478B41C1EE19900842054 /* TestKIFApplicationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -654,6 +658,7 @@
 				37B1606D1C1FD50100B81C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
